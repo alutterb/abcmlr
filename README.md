@@ -12,4 +12,6 @@
 
 Rogers' Documentation: http://content.csbs.utah.edu/~rogers/abcml/doc/main.html
 
-Finding `PATH` (Windows): type `env` in windows search, go to advanced tab, then click on environment variable. Under system variables, look for `Path`. Double click on it and you will get a list of addresses. Placing abcml in any of these will work.
+# Finding your PATH
+
+type `env` in windows search, go to advanced tab, then click on environment variable. Under system variables, look for `Path`. Double click on it and you will get a list of addresses. Placing abcml in any of these will work.
