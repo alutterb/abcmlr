@@ -1,11 +1,15 @@
 Package: abcmlr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Analysis of Bone Counts by Maximum Likelihood
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Austin Lutterbach
+Maintainer: Austin Lutterbach <alutterb@purdue.edu>
+Description: See Rogers ABCML for details
+License: CC0
 Encoding: UTF-8
 LazyData: true
+NeedsCompilation: no
+Packaged: 2019-06-14 21:17:42 UTC; amlut
+Built: R 3.5.3; ; 2019-06-14 21:17:43 UTC; windows
+Imports:
+	tcltk2
