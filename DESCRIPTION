@@ -6,10 +6,6 @@ Author: Austin Lutterbach
 Maintainer: Austin Lutterbach <alutterb@purdue.edu>
 Description: See Rogers ABCML for details
 License: CC0
-Encoding: UTF-8
 LazyData: true
-NeedsCompilation: no
-Packaged: 2019-06-14 21:17:42 UTC; amlut
-Built: R 3.5.3; ; 2019-06-14 21:17:43 UTC; windows
 Imports:
 	tcltk2
