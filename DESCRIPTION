@@ -7,5 +7,3 @@ Maintainer: Austin Lutterbach <alutterb@purdue.edu>
 Description: See Rogers ABCML for details
 License: CC0
 LazyData: true
-Imports:
-	tcltk2
