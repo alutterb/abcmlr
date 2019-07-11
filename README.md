@@ -7,8 +7,11 @@
 # Using abcmlr
 1. Ensure that your working directory is the same location as your data and `Translator.exe` (check with `getwd()`)
 2. Load `abcmlr` with `library("abcmlr")` then using `abcml_tcltk()` or by typing `abcmlr::abcml_tcltk()` in the R console
-3. In the GUI, type the name of your data file (must .CSV in a similar form as HazdaConfigurationFiles.csv), i.e: data.csv
-4. Command line uses commands specific to Rogers' program. See documentation below. -a and -R is a good one to use. Separate commands by spaces only.
+3. In the GUI, type the name of your data file (must be .CSV in a similar form as HazdaConfigurationFiles.csv) 
+4. Command line uses commands specific to Rogers' program. See documentation below. Before typing your commands, specify the nth agent of deposition as "agentn.cfg". Separate by spaces only. 
+
+Example of command line input (no quotes): "agent1.cfg agent2.cfg -a"
+This states that there are two agents of deposition recognized in the data, and we want to estimate attrition.
 
 Rogers' Documentation: http://content.csbs.utah.edu/~rogers/abcml/doc/main.html
 
