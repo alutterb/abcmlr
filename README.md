@@ -10,7 +10,7 @@
 3. In the GUI, type the name of your data file (must be .CSV in a similar form as HazdaConfigurationFiles.csv) 
 4. Command line uses commands specific to Rogers' program. See documentation below. Before typing your commands, specify the nth agent of deposition as "agentn.cfg". Separate by spaces only. 
 
-Example of command line input (no quotes): "agent1.cfg agent2.cfg -a"
+Example of command line input (no quotes): "agent1.cfg agent2.cfg -a" \hskip{10m}
 This states that there are two agents of deposition recognized in the data, and we want to estimate attrition.
 
 Rogers' Documentation: http://content.csbs.utah.edu/~rogers/abcml/doc/main.html
