@@ -16,7 +16,7 @@ abcml_tclk <- function(){
     shell(call)
     
     #system2("wsl", "abcml toy.bdf home.cfg kill.cfg toy.cnt -a")
-    system2("wsl", paste(paste("abcml configuration.cfg bondef.bdf spc.cnt", collapse = " "), cmdLine))
+    system2("wsl", paste(paste("abcml bondef.bdf spc.cnt", collapse = " "), cmdLine))
   }
   
   #Begin GUI Setup
