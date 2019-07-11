@@ -11,8 +11,7 @@
 4. Command line uses commands specific to Rogers' program. See documentation below. Before typing your commands, specify the nth agent of deposition as "agentn.cfg". Separate by spaces only. 
 
 Example of command line input (no quotes): "agent1.cfg agent2.cfg -a"
-
-This states that there are two agents of deposition recognized in the data, and we want to estimate attrition.
+(This states that there are two agents of deposition recognized in the data, and we want to estimate attrition.)
 
 Rogers' Documentation: http://content.csbs.utah.edu/~rogers/abcml/doc/main.html
 
