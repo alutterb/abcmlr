@@ -1,7 +1,7 @@
 # Installing abcmlr
 1. Type `devtools::install_github("alutterb/abcmlr")` in the R console
 2. Download both `Translator.exe` and `abcml` found in this repository.
-3. Place `abcml` in your `PATH` (see below on how to find your `PATH` for windows, putting it in system32 is usually a safe bet), and place `Translator.exe` in the same directory as your data
+3. Place `abcml` in your `PATH` (see below on how to find your `PATH` for windows), and place `Translator.exe` in the same directory as your data
 4. Download [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10) 
 
 # Using abcmlr
