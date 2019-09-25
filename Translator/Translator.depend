@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1561759493 source:c:\users\amlut\downloads\translator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1562855577 source:c:\users\amlut\downloads\c\translator\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
