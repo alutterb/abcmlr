@@ -8,7 +8,7 @@
 
 # Using abcmlr
 1. Ensure that your working directory is the same location as your data and `Translator.exe` (check with `getwd()`). You can change the working directory using `setwd()`, i.e: `setwd(C:/Users/name/library)` (make sure to use FORWARD slashes, R does not read backslahes)
-2. Load `abcmlr` with `library("abcmlr")` then using `abcml_tcltk()` or by typing `abcmlr::abcml_tcltk()` in the R console
+2. If Load `abcmlr` with `library("abcmlr")` then using `abcml_tcltk()` or by typing `abcmlr::abcml_tcltk()` in the R console
 3. In the GUI, type the name of your data file (must be .CSV in a similar form as HazdaConfigurationFiles.csv) 
 4. Command line uses commands specific to Rogers' program. See documentation below. Before typing your commands, specify the nth agent of deposition as "agentn.cfg". Separate by spaces only. 
 
@@ -20,3 +20,6 @@ Rogers' Documentation: http://content.csbs.utah.edu/~rogers/abcml/doc/main.html
 # Finding your PATH
 
 type `env` in windows search, go to advanced tab, then click on environment variable. Under system variables, look for `Path`. Double click on it and you will get a list of directories. Placing abcml in any of these will work.
+
+#Troubleshooting
+If an error occurs, exit out of the gui and reopen
