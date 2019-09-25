@@ -21,5 +21,5 @@ Rogers' Documentation: http://content.csbs.utah.edu/~rogers/abcml/doc/main.html
 
 type `env` in windows search, go to advanced tab, then click on environment variable. Under system variables, look for `Path`. Double click on it and you will get a list of directories. Placing abcml in any of these will work.
 
-#Troubleshooting
+# Troubleshooting
 If an error occurs, exit out of the gui and reopen
