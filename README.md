@@ -1,6 +1,6 @@
 # Installing abcmlr
-1. Type 'install.packages("devtools")' in the R console
-2. Type 'library(devtools)' in the R console
+1. Type `install.packages("devtools")` in the R console
+2. Type `library(devtools)` in the R console
 3. Type `devtools::install_github("alutterb/abcmlr")` in the R console
 4. Download both `Translator.exe` and `abcml` found in this repository.
 5. Place `abcml` in your `PATH` (see below on how to find your `PATH` for windows), and place `Translator.exe` in the same directory as your data
