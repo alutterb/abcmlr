@@ -10,21 +10,9 @@ require(parallel)
 require(geomorph)
 require(Rvcg)
 require(Morpho)
-source("R/rtkogl.r")
-source("R/curve.r")
-source("R/3dDigitize.digitize.r")
-source("R/3dDigitize.geomorph.r")
-source("R/GUImorph.r")
-source("R/3dDigitize.surface.r")
-source("R/geomorph.support.code.r")
 
-source("R/rtkogl.r")
-source("R/3dDigitize.curve.r")
-source("R/3dDigitize.digitize.r")
-source("R/3dDigitize.geomorph.r")
-source("R/GUImorph.r")
-source("R/3dDigitize.surface.r")
-source("R/geomorph.support.code.r")
+source("R/*.r")
+
 #digitize3D <-function() {
     e <- new.env()
     class(e) <- "main"
