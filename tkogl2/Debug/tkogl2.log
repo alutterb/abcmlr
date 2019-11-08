@@ -1,0 +1,19 @@
+﻿  curve.c
+  dot.c
+  ogl.c
+  ogl_model.c
+  ogl_model_ply.c
+  tcl_if.c
+  Generating Code...
+     Creating library ..\GUImorph\inst\libs\i386\tkogl2.lib and object ..\GUImorph\inst\libs\i386\tkogl2.exp
+curve.obj : error LNK2001: unresolved external symbol _tclStubsPtr
+dot.obj : error LNK2001: unresolved external symbol _tclStubsPtr
+tcl_if.obj : error LNK2001: unresolved external symbol _tclStubsPtr
+tcl_if.obj : error LNK2019: unresolved external symbol __imp__ChoosePixelFormat@8 referenced in function _setWindowId
+tcl_if.obj : error LNK2019: unresolved external symbol __imp__SetPixelFormat@12 referenced in function _setWindowId
+tcl_if.obj : error LNK2019: unresolved external symbol __imp__SwapBuffers@4 referenced in function _onDisplay
+tcl_if.obj : error LNK2019: unresolved external symbol __imp__GetDC@4 referenced in function _setWindowId
+tcl_if.obj : error LNK2019: unresolved external symbol _Tcl_InitStubs referenced in function _Tkogl2_Init
+C:\Users\amlut\Documents\RESEARCH\GUIMORPH\guimorph_austin1\tkogl2\lib\GlU64.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\amlut\Documents\RESEARCH\GUIMORPH\guimorph_austin1\tkogl2\lib\glut64.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\GUImorph\inst\libs\i386\tkogl2.dll : fatal error LNK1120: 6 unresolved externals
