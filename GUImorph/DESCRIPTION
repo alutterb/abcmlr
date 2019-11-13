@@ -13,7 +13,11 @@ Imports:
     Rvcg,
     tcltk,
     tcltk2,
-    vegan
+    vegan,
+    devtools
 License: GPL (>= 2)
 LazyData: true
 RoxygenNote: 6.0.1
+Suggests: 
+    testthat (>= 2.1.0)
+    
